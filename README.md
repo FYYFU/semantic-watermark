@@ -7,14 +7,14 @@ Code for paper: Watermarking Conditional Text Generation for AI Detection: Unvei
 Set the environment and install the required packages.
 
 ```
-conda crate watermark
+conda create watermark
 conda activate watermark
 pip install -r requirements.txt
 ```
 # 2. Download The Trained Backbone Models
 We relased our traind models on those datasets. Part of the models were from huggingface and the rest of the models were trained by ourself.
 
-Released Model can be found in [Google Drive]().
+Released Model can be found in [Google Drive](https://drive.google.com/drive/folders/1DeUS22QlHeaO-DJf9mGv98abMsfbygqo?usp=drive_link).
 
 
 # 1.Create Semtantic Matrix

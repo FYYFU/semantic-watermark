@@ -143,8 +143,6 @@ class WatermarkLogitsProcessor(WatermarkBase, LogitsProcessor):
                 all_input_tokens = []
                 unique_item = torch.unique(item)
                 for id in unique_item:
-                    # if id in self.tokenizer.all_special_ids:
-                    #     continue
                     all_input_tokens.append(id.item())
                 
                 cur_choice_indices = self.similar_matrix[all_input_tokens][:, :self.cluster_k]
