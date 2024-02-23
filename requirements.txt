@@ -1,0 +1,7 @@
+nltk
+numpy
+datasets
+scipy
+torch
+transformers
+tokenizers
