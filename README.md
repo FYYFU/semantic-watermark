@@ -1,7 +1,6 @@
 # semantic-watermark
 Code for paper: Watermarking Conditional Text Generation for AI Detection: Unveiling Challenges and a Semantic-Aware Watermark Remedy
 
-![The outputs with the original watermark (OW) \citep{kirchenbauer2023watermark} and our proposed semantic-aware watermark (SW) on a test example from DART -- a data-to-text generation benchmark -- with parameters $\gamma=0.1$ and $\delta=5$. We expect $\sim$ 90\% of human-generated texts from the red list, whereas AI primarily utilizes the green list. Both watermarks yield high $z$-scores ($z>4$), indicating strong watermark strength for detection. Yet, OW forces the algorithm to generate from the red list due to randomly assigning key source entities (Mandy Patinkin) to it. As $\delta$ increases (towards a hard watermark), excluding these red tokens risks more hallucinations (words with underline).](./watermark_example.png)
 
 # 1. Create Environment
 
